@@ -1,20 +1,31 @@
-//Convert from Csentregrade from Farenheit
-#include<stdio.h>
-int main()
-{
-float c,F;
-printf("Enter Centregrade = ");
-scanf("%f",&c);
-F = (c* 1.8)+32;
-printf("Farn =.%2f",F);
+// Centigrade to Farhrenheit
+#include <stdio.h>
+#include <ctype.h>
+int main(){
+  float centigrade, fahrenheit;
+  
+  printf("Enter centigrade = ");
+  scanf("%f", &centigrade);
+
+  fahrenheit = (centigrade * 1.8) + 32;
+
+  printf("Equivalent Fahrenheit = %.2f\n",fahrenheit);
+
+  getchar();
 }
-//Convert from farenheit from Centegrade
-#include<stdio.h>
-int main()
-{
-float c,F;
-printf("Enter Centregrade=");
-scanf("%f",&c);
-F = (C * 1.8)/5
-printf("%f",A);
+
+// Farhrenheit to Centigrade
+#include <stdio.h>
+#include <ctype.h>
+int main(){
+  float centigrade, fahrenheit;
+  
+  printf("Enter fahrenheit = ");
+  scanf("%f", &fahrenheit);
+
+  centigrade = (fahrenheit - 32) / 1.8;
+
+  printf("Equivalent centigrade = %.2f\n",centigrade);
+
+  getchar();
 }
