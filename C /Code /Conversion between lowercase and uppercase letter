@@ -1,0 +1,54 @@
+#include <stdio.h>
+int main(){
+  char lowercaseLetter;
+
+  printf("Enter a lowercase letter: ");
+  scanf("%c", &lowercaseLetter);
+
+  printf("Equivalent uppercase letter: %c\n", lowercaseLetter-32);
+
+  getchar();
+}
+
+#include <stdio.h>
+int main(){
+  char uppercaseLetter;
+
+  printf("Enter a uppercase letter: ");
+  scanf("%c", &uppercaseLetter);
+
+  printf("Equivalent lowercase letter: %c\n", uppercaseLetter+32);
+
+  getchar();
+}
+
+// using library function
+#include <stdio.h>
+#include <ctype.h>
+int main(){
+  char uppercaseLetter, lowercaseLetter;
+
+  printf("Enter a uppercase letter: ");
+  scanf("%c", &uppercaseLetter);
+
+  lowercaseLetter = tolower(uppercaseLetter);
+
+  printf("Equivalent lowercase letter: %c\n", lowercaseLetter);
+
+  getchar();
+}
+
+#include <stdio.h>
+#include <ctype.h>
+int main(){
+  char uppercaseLetter, lowercaseLetter;
+
+  printf("Enter a lowercase letter: ");
+  scanf("%c", &lowercaseLetter);
+
+  uppercaseLetter = toupper(lowercaseLetter);
+
+  printf("Equivalent uppercase letter: %c\n", uppercaseLetter);
+
+  getchar();
+}
