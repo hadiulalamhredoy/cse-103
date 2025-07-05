@@ -10,3 +10,4 @@ result = result * i*i;
 }
 printf("Result = %d\n",result);
 }
+
