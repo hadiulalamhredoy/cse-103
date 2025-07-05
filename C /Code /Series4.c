@@ -22,3 +22,7 @@ printf("(1/%lf)+",i);
 printf( " = %.2lf\n",sum);
 
 }
+
+return  0;
+
+}
