@@ -9,6 +9,27 @@ int main() {
 
     return 0;
 }
+//Alternative Way  
+#include<stdio.h>  
+int main()
+{
+   
+   
+    char s1 [6];
+    s1[0] = 'L'; 
+    s1[1] = 'U'; 
+    s1[2] = 'B'; 
+    s1[3] = 'A'; 
+    s1[4] = 'B'; 
+    s1[5] = 'A'; 
+    s1[6] ='\0';
+    
+    
+       printf("s1 = %s\n",s1);
+    
+    
+}
+
 
 //Input and display String
 #include <stdio.h>
