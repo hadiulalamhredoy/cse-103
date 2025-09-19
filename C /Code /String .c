@@ -1,4 +1,4 @@
-//Introduction to String
+//Introduction to String(Problem01)
 #include <stdio.h>
 
 int main() {
@@ -31,7 +31,7 @@ int main()
 }
 
 
-//Input and display String
+//Input and display String(Problem02)
 #include <stdio.h>
 
 int main() {
@@ -46,7 +46,7 @@ int main() {
     return 0;
 }
 
-//Display string character-wise
+//Display string character-wise(Problem03)
 #include <stdio.h>
 int main() {
     
@@ -62,7 +62,7 @@ int main() {
     return 0;
 }
 
-//finding length of String using
+//finding length of String using (Problem04)
 
 #include <stdio.h>
 #include <string.h>
@@ -76,7 +76,7 @@ int main() {
 
 }
 
-// finding length of String without strlen() function
+// finding length of String without strlen() function (Problem05)
 #include<stdio.h> 
 int main()
 {
@@ -91,7 +91,7 @@ int main()
     printf("Length = %d\n",len);
      
 }
-// copy string using strcpy()
+// copy string using strcpy() (Problem06)
 #include<stdio.h> 
 #include <string.h>
 int main()
@@ -106,7 +106,7 @@ int main()
      
 }
 
-//concatenation using strcat()
+//concatenation using strcat() (Problem07)
 #include<stdio.h> 
 #include <string.h>
 int main()
@@ -119,7 +119,7 @@ int main()
     
 }
 
-// concatenation without strcat()
+// concatenation without strcat() (Problem08)
 #include<stdio.h>
 int main()
 {
@@ -141,7 +141,7 @@ int main()
    printf("str1 = %s\n",str1);
 }
 
-//String compare using strcmp()
+//String compare using strcmp() (Problem09)
 #include<stdio.h>
 int main()
 {
@@ -162,7 +162,7 @@ int main()
 
 }
 
-//String reverse using strrev()
+//String reverse using strrev() (Problem10)
 #include<stdio.h>
 int main()
 {
@@ -173,7 +173,7 @@ int main()
     printf("str1 = %s\n",str1);
 }
 
-//String reverse without strrev()
+//String reverse without strrev() (Problem11)
 #include<stdio.h>
 int main()
 {
@@ -199,7 +199,7 @@ int main()
     printf("str2 = %s\n",str2);
 }
 
-// string palindrome
+// string palindrome  (Problem12)
 #include<stdio.h>
 int main()
 {
@@ -233,6 +233,26 @@ int main()
     else{
         printf("String are not Palindrome");
     }
+}
+//string swapping (Problem13)
+#include<stdio.h>
+int main()
+{
+    char str1[15] = "Bangladesh";
+    char str2[15] = "India";
+    char temp[15];
+
+    printf("Before Swapping\n");
+    printf("str1 = %s\n",str1);
+    printf("str2 = %s\n",str2);
+
+    strcpy(temp,str1);
+    strcpy(str1,str2);
+    strcpy(str2,temp);
+
+    printf("\n\nAfter Swapping\n");
+    printf("str1 = %s\n",str1);
+    printf("str2 = %s\n",str2);
 }
 
 
