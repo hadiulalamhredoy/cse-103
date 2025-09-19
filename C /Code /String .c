@@ -266,5 +266,5 @@ int main()
 
 }
 
-
+// Number of vowels, consonants, words, digits and other(Problem15)
 
