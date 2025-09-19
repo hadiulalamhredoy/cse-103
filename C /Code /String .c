@@ -145,8 +145,8 @@ int main()
 #include<stdio.h>
 int main()
 {
-    char str1[] = "Lubaba Bintay Nehal";
-    char str2[] = "Oishee";
+    char str1[] = "Ahmed Rakib";
+    char str2[] = "Rakib";
 
      int d = strcmp(str1,str2);
 
@@ -161,3 +161,15 @@ int main()
     }
 
 }
+
+//String reverse using strrev()
+#include<stdio.h>
+int main()
+{
+   char str1[] = "Rakib Ahmed";
+
+    strrev(str1);
+
+    printf("str1 = %s\n",str1);
+}
+
