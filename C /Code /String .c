@@ -141,3 +141,23 @@ int main()
    printf("str1 = %s\n",str1);
 }
 
+//String compare using strcmp()
+#include<stdio.h>
+int main()
+{
+    char str1[] = "Lubaba Bintay Nehal";
+    char str2[] = "Oishee";
+
+     int d = strcmp(str1,str2);
+
+     if(d==0)
+     {
+         printf("String are Equal");
+     }
+
+    else
+    {
+        printf("String are not equal");
+    }
+
+}
