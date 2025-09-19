@@ -135,7 +135,96 @@ int main()
 
 }
 
+//Passing Array to function
+#include<stdio.h>
+void display(int x[])
+{
+    int i;
+    for(i=0;i<5;i++)
+    {
+        printf("%d ",x[i]);
+    }
 
+}
+
+int main()
+{
+   int num[] = {10,20,30,40,50};
+    display(num);
+
+}
+//finding maximum value from an array using function
+
+#include<stdio.h>
+int maximum(int x[])
+{
+    int i;
+    int max = x[0];
+    for(i=1;i<5;i++)
+    {
+        if(max < x[i])
+            max = x[i];
+
+    }
+
+
+        return max;
+}
+
+
+int main()
+{
+   int num[] = {10,20,30,40,50};
+   int maximumVaule = maximum(num);
+
+   printf("Maximum = %d\n",maximumVaule);
+
+
+}
+//Passing String to function
+#include<stdio.h>
+void display(char str[])
+{
+    int i  =0;
+    while(str[i]!='\0')
+    {
+
+        printf("%c\n",str[i]);
+         i++;
+    }
+
+}
+
+
+
+int main()
+{
+    char str[] ="Oishee";
+    display(str);
+
+}
+
+//Factorial Using Recursion
+#include<stdio.h>
+int main()
+{
+   int result = fact(5);
+   printf("Factorial of 5  = %d",result);
+
+}
+
+int fact(int n)
+{
+
+    if(n==1)
+    {
+       return 1;
+    }
+
+    else
+       return n*fact(n-1);
+
+}
 
 
 
