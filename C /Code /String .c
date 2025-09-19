@@ -255,5 +255,16 @@ int main()
     printf("str2 = %s\n",str2);
 }
 
+//strupr() and strlwr() (Problem 14)
+#include<stdio.h>
+int main()
+{
+    char str[] = "Anisul Islam";
+    strlwr(str);
+
+    printf("str = %s\n",str);
+
+}
+
 
 
