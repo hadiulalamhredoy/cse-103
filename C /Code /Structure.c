@@ -110,6 +110,8 @@ struct person
 
     }
 
+//concatenation without strcat()
+
 
 
 
