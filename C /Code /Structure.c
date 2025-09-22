@@ -287,6 +287,25 @@ int main()
 
 }
 
+//Introduction to typedef
+#include<stdio.h>
+struct book
+{
+    char names[20];
+    int price;
+};
+
+
+int main()
+{
+    typedef struct book Book;
+    Book b  = {"C Programming",400};
+
+    printf("Book name = %s\n",b.names);
+    printf("Book price =%d\n",b.price);
+
+}
+
 
 
 
