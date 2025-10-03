@@ -72,7 +72,7 @@ int main()
 
     return 0.5 * b * h;
 }
-
+// x to the power y (using /not using) Library function
 
 ////base^exponent
 //2^3= 2*2*2=8
@@ -108,7 +108,7 @@ int main()
 
 }
 
-//aNother   Method  
+// Area of a Triangle
 #include<stdio.h>
 int main()
 {
@@ -133,7 +133,7 @@ int main()
 
 
 }
-//
+// Passing Array to function
 #include<stdio.h>
 void display(int x[])
 {
@@ -183,7 +183,7 @@ int main()
 
 }
 
-//
+//Passing String to function
 #include<stdio.h>
 void display(char str[])
 {
@@ -206,7 +206,7 @@ int main()
 
 }
 
-//Find the Factoruial Vaule 
+//Factorial Using Recursion 
 #include<stdio.h>
 int main()
 {
