@@ -1,4 +1,4 @@
-//Area of Reccrtangular  
+//Area of Rectangular  
 
 #include<stdio.h>
 int main()
