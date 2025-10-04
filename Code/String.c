@@ -112,7 +112,7 @@ int main()
 
 }
 
-//
+//String Reverse 
 #include<stdio.h>
 int main()
 {
@@ -125,7 +125,7 @@ int main()
 
 
 }
-//.Comkpare with 2 String  
+//.Compare with 2 String  
 #include<stdio.h>
 int main()
 {
