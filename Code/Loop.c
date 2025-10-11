@@ -19,7 +19,18 @@ int main()
     {
         printf("%d\n",i);
     }
+
     
-    
+}
+
+
+//Printing the vaule  
+#include<stdio.h>
+int main()
+{
+    for(int i =1; i<=10;i++)
+    {
+        printf("I Love Programming\n");
+    }
     
 }
