@@ -155,3 +155,19 @@ int main()
        return 0;
 
 }
+
+//Swapping Array 
+#include<stdio.h>
+int main()
+{
+    int a =10; 
+    int b  =20;  
+   int temp = a;
+    a= b; 
+    b = temp;
+
+     printf("A = %d\nB = %d",a,b);
+
+
+}
+
